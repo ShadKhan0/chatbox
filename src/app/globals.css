@@ -15,6 +15,17 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+#body{
+  background-color: #fbfb73;
+}
+#chatting{
+  background-image: url("../../public/chat-wall.jpg");
+  
+
+}
 
 body {
   color: rgb(var(--foreground-rgb));
